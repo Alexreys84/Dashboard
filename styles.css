@@ -1,7 +1,13 @@
-/* Estilos personalizados (opcional) */
+/* Estilos Gerais */
 body {
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
   background-color: #f8f9fa;
+}
+
+.dashboard {
+  padding: 20px;
 }
 
 .container {
@@ -9,7 +15,41 @@ body {
   margin: 0 auto;
 }
 
-canvas {
-  max-width: 100%;
-  height: auto;
+.row {
+  margin-bottom: 20px;
+}
+
+/* Cards */
+.card {
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.card-header {
+  background-color: #ffffff;
+  border-bottom: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+/* Estilos para textos */
+.value-unit {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.statistic {
+  font-size: 16px;
+  color: #6c757d;
+  margin-bottom: 8px;
 }
